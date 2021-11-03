@@ -2,6 +2,19 @@
 
 ## VS Coders
 
-Isha Simran, Filora Turdi, Devon Lipsius and Evan Burton
+- Isha Simran
+  - contribution
+    - example:
+- Filora Turdi
+  - contribution
+    - example:
+- Devon Lipsius
+  - contribution
+    - example:
+- Evan Burton
+  - contribution
+    - example:
 
-## Restaurant "Kitchen Restaurant
+## Restaurant:
+
+-Kitchen Restaurant
