@@ -22,3 +22,17 @@ VScoders
 ## Restaurant:
 
 - Kitchen Restaurant
+
+## How to fix merge problems
+
+1. Press “i” on your keyboard.
+
+2. Write your merge message
+
+3. Press “esc” button
+
+4. Type “:wq”
+
+5. Press Enter
+
+Finally, Push Changes “git push”
