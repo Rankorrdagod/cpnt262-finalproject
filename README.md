@@ -1,17 +1,21 @@
 # CPNT262-Final Project
 
+## Group Name:
+
+VScoders
+
 ## VS Coders
 
-- Isha Simran
+- [Isha Simran](https://github.com/IshaSimran)
   - contribution
     - example:
-- Filora Turdi
+- [Filora Turdi](https://github.com/aeoyu)
   - contribution
     - example:
-- Devon Lipsius
+- [Devon Lipsius](https://github.com/Nephy1)
   - contribution
     - example:
-- Evan Burton
+- [Evan Burton](https://github.com/Rankorrdagod)
   - contribution
     - example:
 
