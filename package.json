@@ -1,0 +1,21 @@
+{
+  "name": "cpnt262-finalproject",
+  "version": "1.0.0",
+  "description": "VScoders",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aeoyu/cpnt262-finalproject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aeoyu/cpnt262-finalproject/issues"
+  },
+  "homepage": "https://github.com/aeoyu/cpnt262-finalproject#readme"
+}
