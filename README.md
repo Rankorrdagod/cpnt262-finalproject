@@ -21,7 +21,7 @@ VScoders
     - example:
 - [Evan Burton](https://github.com/Rankorrdagod)
   - contribution
-    - example:
+    - Added server side requirements and test script to add to server to make sure it works.
 
 ## Restaurant:
 
