@@ -12,7 +12,8 @@ VScoders
 
 - [Isha Simran](https://github.com/IshaSimran)
   - contribution
-    - example:
+    - Logo creation for restaurant
+    - Finding images and optimizing them
 - [Filora Turdi](https://github.com/aeoyu)
   - contribution
     - Set up initial folders and file structure, added data template to api.js
