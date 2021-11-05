@@ -1,5 +1,9 @@
 # CPNT262-Final Project
 
+**Repo Link :** [Github Repo](https://github.com/aeoyu/cpnt262-finalproject)
+
+**Pages Link :** [GitHub Page](https://aeoyu.github.io/cpnt262-finalproject/)
+
 ## Group Name:
 
 VScoders
