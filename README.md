@@ -15,7 +15,7 @@ VScoders
     - example:
 - [Filora Turdi](https://github.com/aeoyu)
   - contribution
-    - example:
+    - Set up initial folders and file structure, added data template to api.js
 - [Devon Lipsius](https://github.com/Nephy1)
   - contribution
     - example:
