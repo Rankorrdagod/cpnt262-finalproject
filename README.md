@@ -14,6 +14,7 @@ VScoders
   - contribution
     - Logo creation for restaurant
     - Finding images and optimizing them
+    - Image array
 - [Filora Turdi](https://github.com/aeoyu)
   - contribution
     - Set up initial folders and file structure, added data template to api.js
