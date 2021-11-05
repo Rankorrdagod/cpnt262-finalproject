@@ -1,7 +1,7 @@
 const gallery = [
 	{
 		id: 1,
-		title: 
+		title: Kitchen,
 		description: 
 		width: 
 		height: 
@@ -131,3 +131,4 @@ const gallery = [
 		credit: 
 		creditURL: 
 	},
+]
