@@ -17,25 +17,13 @@
 <!-- Title -->
 
 <body>
+
   <header>
     <nav>
-      <!-- SVG logo -->
-      <div class="logo">
-        <a href="#">
-          <svg width="60" height="60" viewbox="0 0 428 374" fill="none">
-            <!-- <path class="path1" fill-rule="evenodd" clip-rule="evenodd"
-              d="M416 374c9 0 15-10 10-18L224 6c-4-8-16-8-21 0L2 356c-5 8 1 18 10 18h404Zm-61-35c9 0 15-10 10-18L225 77c-5-8-16-8-21 0L63 321c-4 8 1 18 11 18h281Z"
-              fill="#FFFFFF" />
-            <path class="path2" fill-rule="evenodd" clip-rule="evenodd"
-              d="M383 371c9 0 14-10 9-17L229 115c-4-7-14-7-19-1L35 346c-5 7-1 17 7 19l10 3c5 1 9-1 12-5l144-190c5-7 15-7 20 0l146 194c2 2 6 4 9 4Z"
-              fill="#FFFFFF" />
-            <path class="path3" fill-rule="evenodd" clip-rule="evenodd"
-              d="m81 356 124-157c5-6 14-6 19 0l124 145c7 8 1 20-9 19h-4c-4 0-7-1-9-4l-87-109c-5-6-14-6-19 0l-81 103c-3 3-6 5-10 4l-48-1Zm0 0-4 6-4 2c-5-1-4-8 1-8h7Z"
-              fill="#FFFFFF" />
-            <path class="path4" fill-rule="evenodd" clip-rule="evenodd"
-              d="M173 362c-9 0-14-11-8-19l55-72c4-6 13-6 18 0l72 87c2 3 3 7 0 10-1 2-4 3-6 3h-1c-2 0-5-2-6-4l-40-50c-5-6-14-6-19 0l-34 42c-2 3-6 5-10 5l-21-2Z"
-              fill="#FFFFFF" /> -->
-          </svg>
+      <div id="navbar">
+        <a href="#" class="title">
+          <i class=""></i>
+          <p id="logoname">Kitchen Restaurant</p>
         </a>
       </div>
 
@@ -51,6 +39,7 @@
         <div class="line2"></div>
         <div class="line3"></div>
       </div>
+
     </nav>
   </header>
 
@@ -102,64 +91,56 @@
     </div>
   </main>
   <section id="formandmap">
-    <div class="stylize">
-      <div class="map-style">
-        <div class="maps-title">
-          <h2>Location</h2>
+    <div>
+      <div class="stylize">
+        <div class="map-style">
+          <div class="maps-title">
+            <h2>Location</h2>
+          </div>
+          <iframe class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2507.404135581905!2d-114.0907283843189!3d51.06408937956475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53716f9268a69e81%3A0xb1db5e68bd61e28!2sSouthern%20Alberta%20Institute%20of%20Technology!5e0!3m2!1sen!2sca!4v1631682102187!5m2!1sen!2sca"
+            allowfullscreen="" loading="lazy"></iframe>
+
         </div>
-        <iframe class="map"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2507.404135581905!2d-114.0907283843189!3d51.06408937956475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53716f9268a69e81%3A0xb1db5e68bd61e28!2sSouthern%20Alberta%20Institute%20of%20Technology!5e0!3m2!1sen!2sca!4v1631682102187!5m2!1sen!2sca"
-          allowfullscreen="" loading="lazy"></iframe>
+        <div class="signup-data">
+          <div class="signup-title">
+            <h2>Contact Us</h2>
+          </div>
+          <div class="form">
+            <form action="#">
+              <label for="name"></label>
+              <input type="text" id="name" placeholder="Name">
+              <label for="Email"></label>
+              <input type="text" id="email" cols="30" placeholder="Email">
+              <label for="Phone"></label>
+              <input type="text" id="phone" cols="30" placeholder="Phone">
+              <label for="Comment"></label>
+              <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Message"></textarea>
+              <button type="submit">Send</button>
+            </form>
+          </div>
+        </div>
 
       </div>
-      <div class="signup-data">
-        <div class="signup-title">
-          <h2>Contact Us</h2>
-        </div>
-        <div class="form">
-          <form action="#">
-            <label for="name"></label>
-            <input type="text" id="name" placeholder="Name">
-            <label for="Email"></label>
-            <input type="text" id="email" cols="30" placeholder="Email">
-            <label for="Phone"></label>
-            <input type="text" id="phone" cols="30" placeholder="Phone">
-            <label for="Comment"></label>
-            <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Message"></textarea>
-            <button type="submit">Send</button>
-          </form>
-        </div>
-      </div>
-
-    </div>
     </div>
   </section>
 
 </body>
 <!-- Page Footer -->
 <footer class="footer">
-  <div class="block">
-  </div>
-  <div class="contact-item">
-    <!-- bottom footer address and phone number -->
-    <div class="left-footer">
-      <h4>Address</h4>
-      <p class="street-address">1209 1st Street SW<br>Calgary,
-        AB T2R-0V3</p>
-      <p class="phone-number">(403) 475-5537</p>
-    </div>
-  </div>
 
-  <div class="block">
-  </div>
+
   <!-- bottom footer address -->
   <div class="middle-footer">
     <div class="footer-logo-title">
       <h3 style="text-align:center;white-space:pre-wrap;"> Kitchen Restaurant</h3>
     </div>
+
     <div class="footer-icon">
       <p> <img src="https://img.icons8.com/small/50/000000/restaurant-building.png" alt="Kitchen-Restaurant-Logo">
+      </p>
     </div>
+
     <div class="socialmedia-footer">
       <a href="https://www.facebook.com" target="_blank">
         <img src="https://img.icons8.com/material/25/000000/facebook--v1.png">
@@ -192,17 +173,13 @@
     <div class="block">
     </div>
   </div>
-  <div class="block">
-  </div>
+
   <!-- Bottom Footer -->
 </footer>
 
 <section class="copyright-footer">
-  <div class="copyright-section">
-    <div class="bottom-footer-copyright">
-      <p class="copyright">&copy; Copyright 2021 Kitchen Restaurant</p>
-    </div>
-  </div>
+  <p class="copyright">&copy; Copyright 2021 Kitchen Restaurant</p>
+
 </section>
 <!-- Page Footer Ends-->
 
