@@ -42,3 +42,31 @@ VScoders
 5. Press Enter
 
 Finally, Push Changes “git push”
+
+## Attributions
+
+### Images
+
+- [Unsplash](https://unsplash.com/)
+
+- [Unsplash License](https://unsplash.com/license)
+
+- [Steak Tacos](https://unsplash.com/photos/z_PfaGzeN9E) by Jeswin Thomas on Unsplash
+
+- [Fish Tacos](https://unsplash.com/photos/MujcCMdGW3s) by Hybrid Storytellers on Unsplash
+
+- [Veggie Tacos](https://unsplash.com/photos/hAFCfzaeVJg) by Quin Engle on Unsplash
+
+- [Chicken Tacos](https://unsplash.com/photos/wYwbs_bsmaM) by Fernando Andrade on Unsplash
+
+- [Nachos](https://unsplash.com/photos/KGAMf2UGrQw) by Albany Capture on Unsplash
+
+- [Chips and Salsa](https://unsplash.com/photos/6cguFN39fKU) by Tai's Captures on Unsplash
+
+- [Chips and Guac](https://unsplash.com/photos/9ND-qkGs1_8) by Tessa Rampersad on Unsplash
+
+- [Quesadilla](https://unsplash.com/photos/pvTgyioFSTY) by Lottie Griffiths on Unsplash
+
+- [Burrito](https://unsplash.com/photos/50KffXbjIOg) by Ryan Concepcion on Unsplash
+
+- [Churros](https://unsplash.com/photos/ME-QOplR93Q) by Edward Howell on Unsplash
