@@ -24,6 +24,7 @@ VScoders
 - [Evan Burton](https://github.com/Rankorrdagod)
   - contribution
     - Added server side requirements and test script to add to server to make sure it works.
+    - Converted image.js to json and added image.json to routesto upload to database.
 
 ## Restaurant:
 
