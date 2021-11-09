@@ -1,8 +1,10 @@
 # CPNT262-Final Project
 
-**Repo Link :** [Github Repo](https://github.com/aeoyu/cpnt262-finalproject)
+**Github Repo Link :** [Github Repo](https://github.com/aeoyu/cpnt262-finalproject)
 
-**Pages Link :** [GitHub Page](https://aeoyu.github.io/cpnt262-finalproject/)
+**Github Pages Link :** [GitHub Page](https://aeoyu.github.io/cpnt262-finalproject/)
+
+**Heroku Page Link :** [Heroku Page](https://cpnt262-finalproject.herokuapp.com/)
 
 ## Group Name:
 
@@ -18,6 +20,7 @@ VScoders
 - [Filora Turdi](https://github.com/aeoyu)
   - contribution
     - Set up initial folders and file structure, added data template to api.js
+    - write/update/debug index.html code with hamburger menu javascript code
 - [Devon Lipsius](https://github.com/Nephy1)
   - contribution
     - example:
