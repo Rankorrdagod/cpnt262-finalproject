@@ -32,10 +32,10 @@ nav {
 .navlinks {
 	display: flex;
 	justify-content: space-around;
-	gap: 1rem;
+	gap: 2rem;
 	padding: 2rem;
 	margin: 0;
-	width: 30%;
+	/* width: 30%; */
 	white-space: nowrap;
 }
 .navlinks li {
@@ -61,14 +61,13 @@ nav li a:hover {
 .hamburger div {
 	width: 30px;
 	height: 4px;
-	background-color: white;
+	background-color: rgb(49, 49, 49);
 
 	margin: 5px;
 }
 
 @media screen and (max-width: 1024px) {
 	.navlinks {
-		width: 40%;
 	}
 	@media screen and (max-width: 768px) {
 		body {
@@ -165,7 +164,7 @@ a {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	color: rgb(197, 197, 197);
+	color: rgb(255, 255, 255);
 	background-attachment: fixed;
 }
 

@@ -17,4 +17,5 @@ const navSlide = () => {
 		});
 	});
 };
+console.log("hello");
 navSlide();
