@@ -3,8 +3,8 @@ const router = express.Router()
 
 const Gallery = require('../models/gallery') 
 const localGallery = require('../models/seeds/gallery')
-
-
+const members = require('../models/member')
+const subscribers = require('../models/seeds/subscriber')
 
 
 
