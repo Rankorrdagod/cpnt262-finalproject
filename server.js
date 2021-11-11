@@ -4,7 +4,9 @@ const dotenv = require('dotenv').config();
 const express = require('express')
 
 const app = express();
-app.use(express.static('public/html'))
+
+app.use(express.static('public'))
+
 
 
 const api = require('./routes/api')
