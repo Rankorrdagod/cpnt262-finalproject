@@ -33,7 +33,7 @@ router.get('/gallery', async (req, res) => {
       
           
           if (!data) {
-            data = localGallery.find(Location => Number(req.params.id) === Location.id) 
+            data = localGallery.find(Gallery => Number(req.params.id) === Gallery.id) 
           }
       
           if (data) { 
