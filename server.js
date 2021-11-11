@@ -4,7 +4,7 @@ const dotenv = require('dotenv').config();
 const express = require('express')
 
 const app = express();
-app.use(express.static('public'))
+app.use(express.static('public/html'))
 
 
 const api = require('./routes/api')
@@ -28,7 +28,7 @@ app.use((req, res) => {
 });
 
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 app.listen(PORT, function(){
   console.log(`Listening on port ${PORT}`);
