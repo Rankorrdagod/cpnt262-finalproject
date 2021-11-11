@@ -4,13 +4,13 @@ const dotenv = require('dotenv').config();
 const express = require('express')
 
 const app = express();
-<<<<<<< HEAD
-app.use(express.static('public'))
-=======
 
 app.use(express.static('public'))
 
->>>>>>> e39d1c17d67b50ad13ca6ab77ed5e794ece7acb9
+
+app.use(express.static('public'))
+
+
 
 
 const api = require('./routes/api')
