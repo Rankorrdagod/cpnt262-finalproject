@@ -8,11 +8,6 @@ const app = express();
 app.use(express.static('public'))
 
 
-app.use(express.static('public'))
-
-
-
-
 const api = require('./routes/api')
 app.use('/api', api)
 
