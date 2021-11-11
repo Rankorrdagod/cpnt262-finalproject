@@ -1,41 +1,14 @@
-const members = [
-{
-    
-    name: 'Isha Simran',
-    profilePic: '',
-    title: '',
-    bio: '',
-    github: 'https://github.com/IshaSimran'
+/******************/
+/* Member Schema */
+/******************/
+const mongoose = require('mongoose');
 
-},
-{
-    
-    name: 'Devon Lipsius',
-    profilePic: '',
-    title: '',
-    bio: '',
-    github: 'https://github.com/Nephy1'
+const memberSchema = new mongoose.Schema({
+  name: String,
+  profilePic: Image,
+  title: String,
+  bio: String,
+  github: String
+})
 
-},
-{
-    
-    name: 'Filora Turdi',
-    profilePic: '',
-    title: '',
-    bio: '',
-    github: 'https://github.com/aeoyu'
-
-},
-
-{
-    
-    name: 'Evan Burton',
-    profilePic: './assets/images/evanpic.jpg',
-    title: 'Back-End',
-    bio: 'Fill this in at some point',
-    github: 'https://github.com/Rankorrdagod'
-
-}
-
-];
-module.exports = members
+module.exports = mongoose.model('member', memberSchema)
