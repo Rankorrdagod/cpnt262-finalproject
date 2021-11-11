@@ -28,6 +28,7 @@ VScoders
   - contribution
     - Added server side requirements and test script to add to server to make sure it works.
     - Converted image.js to json and added image.json to routesto upload to database.
+    - added gallery routes
 
 ## Restaurant:
 
