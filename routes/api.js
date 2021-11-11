@@ -2,7 +2,7 @@ const express = require('express')
 const router = express.Router()
 
 const Gallery = require('../models/gallery') 
-const localLocation = require('../models/seeds/gallery')
+const localGallery = require('../models/seeds/gallery')
 
 
 
@@ -11,7 +11,7 @@ const localLocation = require('../models/seeds/gallery')
 
 router.get('/gallery', async (req, res) => {
     try {
-      let data = await Location.find()
+      let data = await Gallery.find()
   
       
       if (data.length === 0) {
