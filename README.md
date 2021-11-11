@@ -23,7 +23,8 @@ VScoders
     - write/update/debug index.html code with hamburger menu javascript code
 - [Devon Lipsius](https://github.com/Nephy1)
   - contribution
-    - example:
+    - Added Schemas
+    - Attempt debugging with Evan
 - [Evan Burton](https://github.com/Rankorrdagod)
   - contribution
     - Added server side requirements and test script to add to server to make sure it works.
