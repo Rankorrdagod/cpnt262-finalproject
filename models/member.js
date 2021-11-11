@@ -5,7 +5,7 @@ const members = [
     profilePic: '',
     title: '',
     bio: '',
-    github: ''
+    github: 'https://github.com/IshaSimran'
 
 },
 {
@@ -14,7 +14,7 @@ const members = [
     profilePic: '',
     title: '',
     bio: '',
-    github: ''
+    github: 'https://github.com/Nephy1'
 
 },
 {
@@ -23,7 +23,7 @@ const members = [
     profilePic: '',
     title: '',
     bio: '',
-    github: ''
+    github: 'https://github.com/aeoyu'
 
 },
 
