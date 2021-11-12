@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 
 const memberSchema = new mongoose.Schema({
   name: String,
-  profilePic: Image,
+  profilePic: String,
   title: String,
   bio: String,
   github: String
