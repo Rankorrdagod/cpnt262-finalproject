@@ -4,9 +4,9 @@ const router = express.Router();
 const Gallery = require("../models/gallery");
 const localGallery = require("../models/seeds/gallery");
 const members = require("../models/member");
-const subscribers = require("../models/seeds/seed-subscribers");
+const subscribers = require("../models/subscriber");
 
-router.get("/gallery", async (req, res) => {
+router.get("/galleries", async (req, res) => {
 	try {
 		let data = await Gallery.find();
 
@@ -21,7 +21,7 @@ router.get("/gallery", async (req, res) => {
 	}
 });
 
-router.get("/gallery/:id", async (req, res) => {
+router.get("/galleries/:id", async (req, res) => {
 	try {
 		let data = await Gallery.findOne({ id: req.params.id });
 
