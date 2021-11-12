@@ -25,6 +25,7 @@ VScoders
   - contribution
     - Added Schemas
     - Attempt debugging with Evan
+    - added member routes
 - [Evan Burton](https://github.com/Rankorrdagod)
   - contribution
     - Added server side requirements and test script to add to server to make sure it works.

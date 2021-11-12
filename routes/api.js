@@ -3,8 +3,13 @@ const router = express.Router();
 
 const Gallery = require("../models/gallery");
 const localGallery = require("../models/seeds/gallery");
-const members = require("../models/member");
+const member = require("../models/member");
+const members = require("../models/seeds/seed-members")
 const subscribers = require("../models/subscriber");
+
+/*********************/
+/* Route for gallery */
+/*********************/
 
 router.get("/galleries", async (req, res) => {
 	try {
@@ -41,5 +46,49 @@ router.get("/galleries/:id", async (req, res) => {
 		res.send({ error: "404 Not Found" }); // send JSON 404 error
 	}
 });
+
+/*********************/
+/* Route for members */
+/*********************/
+
+router.get("/members", async (req, res) => {
+	try {
+		let data = await member.find();
+
+		if (data.length === 0) {
+			data = members;
+		} else {
+			res.send(data);
+		}
+	} catch (err) {
+		console.log(err);
+		res.send({ error: "Member Not Found" }); // send JSON 404 error
+	}
+});
+
+router.get("/members/:id", async (req, res) => {
+	try {
+		let data = await member.findOne({ id: req.params.id });
+
+		if (!data) {
+			data = members.find(
+				(member) => Number(req.params.id) === member.id
+			);
+		}
+
+		if (data) {
+			res.send(data);
+		} else {
+			res.send({ error: "Member Doesnt Exist" }); // send JSON 404 error
+		}
+	} catch (err) {
+		console.log(err);
+		res.send({ error: "404 Not Found" }); // send JSON 404 error
+	}
+});
+
+/*************************/
+/* Route for subscribers */
+/*************************/
 
 module.exports = router;
