@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const api = require("./routes/api");
 
 async function main() {
-	await mongoose.connect(process.env.MONGO_URI);
+	await mongoose.connect(process.env.MONGO_URL);
 	const app = express();
 
 	app.use(express.static("public"));
