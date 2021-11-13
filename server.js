@@ -4,11 +4,9 @@ const api = require("./routes/api");
 const mongoose = require("./models/db")
 
 async function main() {
-<<<<<<< HEAD
-	await mongoose.connect(process.env.MONGO_URL);
-=======
+
 	await mongoose;
->>>>>>> 4a1aaeb2cb6aa32c4067537089a327ecbb9b3170
+
 	const app = express();
 
 	app.use(express.static("public"));
