@@ -1,11 +1,10 @@
 const express = require("express");
-const router = express.Router();
-
 const Gallery = require("../models/gallery");
 const localGallery = require("../models/seeds/gallery");
 const member = require("../models/member");
-const members = require("../models/seeds/seed-members")
-const subscribers = require("../models/subscriber");
+const members = require("../models/seeds/seed-members");
+const subscriber = require("../models/subscriber");
+const router = express.Router();
 
 /*********************/
 /* Route for gallery */
@@ -71,9 +70,7 @@ router.get("/members/:id", async (req, res) => {
 		let data = await member.findOne({ id: req.params.id });
 
 		if (!data) {
-			data = members.find(
-				(member) => Number(req.params.id) === member.id
-			);
+			data = members.find((member) => Number(req.params.id) === member.id);
 		}
 
 		if (data) {
