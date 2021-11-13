@@ -1,12 +1,12 @@
-const dotenv = require('dotenv').config();
+require('dotenv').config();
 const express = require("express");
 const api = require("./routes/api");
-const mongoose = require("./models/db")
+const mongoose = require("mongoose");
 
 async function main() {
 
 
-	await mongoose;
+	await mongoose.connect(process.env.MONGO_URI)
 
 	const app = express();
 
