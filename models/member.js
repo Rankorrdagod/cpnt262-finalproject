@@ -1,14 +1,14 @@
 /******************/
 /* Member Schema */
 /******************/
-const mongoose = require("mongoose");
+const mongoose = require('mongoose');
 
 const memberSchema = new mongoose.Schema({
-	name: String,
-	profilePic: String,
-	title: String,
-	bio: String,
-	github: String,
-});
+  name: String,
+  profilePic: String,
+  title: String,
+  bio: String,
+  github: String
+})
 
-module.exports = mongoose.model("member", memberSchema);
+module.exports = mongoose.model('member', memberSchema)

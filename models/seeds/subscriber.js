@@ -11,10 +11,6 @@ const wipeAndSeed = async () => {
 			{
 				name: String,
 				email: String,
-				address: String,
-				city: String,
-				province: String,
-				postalcode: String,
 			},
 		]);
 
