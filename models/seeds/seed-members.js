@@ -1,6 +1,6 @@
 const members = [
     {
-
+        id: 1,
         name: 'Isha Simran',
         profilePic: './assets/images/ishapic.jpg',
         title: 'Front-End',
@@ -9,7 +9,7 @@ const members = [
 
     },
     {
-
+        id: 2,
         name: 'Devon Lipsius',
         profilePic: '',
         title: 'Back-End Supporter',
@@ -18,7 +18,7 @@ const members = [
 
     },
     {
-
+        id: 3,
         name: 'Filora Turdi',
         profilePic: '',
         title: '',
@@ -28,7 +28,7 @@ const members = [
     },
 
     {
-
+        id: 4,
         name: 'Evan Burton',
         profilePic: './assets/images/evanpic.jpg',
         title: 'Back-End',
