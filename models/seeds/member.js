@@ -24,8 +24,8 @@ const wipeAndSeed = async () => {
 			},
 			{
 				name: "Filora Turdi",
-				profilePic: "",
-				title: "",
+				profilePic: "https://avatars.githubusercontent.com/u/83137167?v=4",
+				title: "Front-End",
 				bio: "",
 				github: "https://github.com/aeoyu",
 			},

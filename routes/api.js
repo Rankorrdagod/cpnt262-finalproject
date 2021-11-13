@@ -2,7 +2,7 @@ const express = require("express");
 const Gallery = require("../models/gallery");
 const localGallery = require("../models/seeds/gallery");
 const member = require("../models/member");
-const members = require("../models/seeds/seed-members");
+const members = require("../models/seeds/member");
 const subscriber = require("../models/subscriber");
 const router = express.Router();
 
