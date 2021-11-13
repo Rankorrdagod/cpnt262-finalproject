@@ -10,9 +10,9 @@ async function main() {
 
 	const app = express();
     // URL ENCODED IF SUBMITTED INFO IS FROM A TRADITIONAL FORM
-    app.use(express.urlencoded({ extended: true }));
-    // JSON IF DATA IS SUBMITTED AS JSON USING FETCH() OR SIMILAR
-    app.use(express.json());
+  app.use(express.urlencoded({ extended: true }));
+  // JSON IF DATA IS SUBMITTED AS JSON USING FETCH() OR SIMILAR
+  app.use(express.json());
 
 	app.use(express.static("public"));
 	app.use("/api", api);
