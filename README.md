@@ -32,7 +32,7 @@ VScoders
     - Converted image.js to json and added image.json to routesto upload to database.
     - added gallery routes
     - added database connection in mongo, pushed to heroku semi successfully https://cpnt262-finalapp.herokuapp.com/
-
+    - fixing 
 ## Restaurant:
 
 - Kitchen Restaurant
