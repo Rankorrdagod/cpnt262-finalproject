@@ -1,10 +1,10 @@
 require("dotenv").config();
 const express = require("express");
-const mongoose = require("mongoose");
 const api = require("./routes/api");
+const mongoose = require("./models/db")
 
 async function main() {
-	await mongoose.connect(process.env.MONGO_URI);
+	await mongoose;
 	const app = express();
 
 	app.use(express.static("public"));
