@@ -37,7 +37,7 @@ async function main() {
 	});
 
    // SUBSCRIBER POST
- app.post('/subscribers', function(request, response){
+ app.post('/api/subscribers', function(request, response){
   const subscriber = new subscriber(req.body);
 
   subscriber.save(function(error, data){

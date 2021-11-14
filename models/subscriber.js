@@ -1,8 +1,19 @@
 const mongoose = require("mongoose");
+const dotenv = require('dotenv').config();
+mongoose.connect(
+  process.env.MONGODB_URL,
+  { useUnifiedTopology: true, useNewUrlParser: true },
+  )
+  .then(function(){
+    console.log('Connected to DB...')
+  })
+  .catch(function(err){
+    console.log(err)
+  });
 
 const subscriberSchema = new mongoose.Schema({
 	name: String,
 	email: String,
 });
-
-module.exports = mongoose.model("subscriber", subscriberSchema);
+const Subscriber = mongoose.model("subscriber", subscriberSchema);
+module.exports = Subscriber;
