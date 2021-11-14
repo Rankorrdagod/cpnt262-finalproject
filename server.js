@@ -1,18 +1,16 @@
-require('dotenv').config();
+require("dotenv").config();
 const express = require("express");
 const api = require("./routes/api");
 const mongoose = require("mongoose");
 
 async function main() {
-
-
-	await mongoose.connect(process.env.MONGO_URI)
+	await mongoose.connect(process.env.MONGODB_URL);
 
 	const app = express();
-    // URL ENCODED IF SUBMITTED INFO IS FROM A TRADITIONAL FORM
-  app.use(express.urlencoded({ extended: true }));
-  // JSON IF DATA IS SUBMITTED AS JSON USING FETCH() OR SIMILAR
-  app.use(express.json());
+	// URL ENCODED IF SUBMITTED INFO IS FROM A TRADITIONAL FORM
+	app.use(express.urlencoded({ extended: true }));
+	// JSON IF DATA IS SUBMITTED AS JSON USING FETCH() OR SIMILAR
+	app.use(express.json());
 
 	app.use(express.static("public"));
 	app.use("/api", api);
@@ -36,17 +34,16 @@ async function main() {
 		console.log(`Listening on port ${PORT}`);
 	});
 
-   // SUBSCRIBER POST
- app.post('/subscribers', function(request, response){
-  const subscriber = new subscriber(req.body);
+	// SUBSCRIBER POST
+	app.post("/subscribers", function (request, response) {
+		const subscriber = new subscriber(req.body);
 
-  subscriber.save(function(error, data){
-    if(error){
-      res.send('Problem submitting form. please try again.');
-    }
-    res.send('Thank you for subscribing!!');
-  })
-});
-
+		subscriber.save(function (error, data) {
+			if (error) {
+				res.send("Problem submitting form. please try again.");
+			}
+			res.send("Thank you for subscribing!!");
+		});
+	});
 }
 main();
