@@ -1,9 +1,53 @@
-require('dotenv').config();
+const express = require('express')
+const app = express()
+const dotenv = require('dotenv').config()
+
+
+app.use(express.static('public'))
+app.use(express.urlencoded({ extended: true }));
+
+/****************/
+//Handle Routes
+/****************/
+
+const api = require('./routes/api.js')
+app.use('/api', api)
+
+/****************/
+// Handle 404
+/****************/
+app.use(function(req, res) {
+
+  // If path starts with `/api`, send JSON 404
+  if (req.url.startsWith('/api')) {
+    res.status(404)
+    res.send({error: 'File Not Found'})
+  } else {  
+    // else send HTML 404
+    res.status(404)
+    res.redirect("./404.html")  
+  }
+});
+
+/****************/
+// Start server
+/****************/
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, function(){
+  console.log(`Listening on port ${PORT}`);
+});
+
+
+
+
+
+/*require('dotenv').config();
 const express = require("express");
 const api = require("./routes/api");
 const mongoose = require("mongoose");
 
-async function main() {
+
 
 
 	await mongoose.connect(process.env.MONGO_URL)
@@ -52,5 +96,5 @@ async function main() {
   })
 });*/
 
-}
-main();
+
+
