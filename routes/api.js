@@ -8,6 +8,9 @@ const members = require("../models/seeds/seed-members")
 const subscriber = require("../models/subscriber");
 const subscribers = require("../models/seeds/subscribers")
 
+// URL ENCODED IF SUBMITTED INFO IS FROM A TRADITIONAL FORM
+app.use(express.urlencoded({ extended: true }));
+
 /*********************/
 /* Route for gallery */
 /*********************/
@@ -105,7 +108,15 @@ router.get("/subscribers", async (req, res) => {
 		res.send({ error: "Member Not Found" }); // send JSON 404 error
 	}
 });
-
+router.post("/subscribers", async (req, res) => {
+	try {
+		const newSub = new subscriber(req.body);
+    await newSub.save()
+	} catch (err) {
+		console.log(err);
+		res.send({ error: "Member Not Found" }); // send JSON 404 error
+	}
+});
 
 
 module.exports = router;
