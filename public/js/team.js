@@ -1,4 +1,7 @@
 'use strict';
+
+const members = require("../../models/seeds/seed-members");
+
 let output = '';
 const team = document.querySelector('.team')
 fetch('https://cpnt262-finalapp.herokuapp.com/api/members')
