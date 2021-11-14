@@ -5,7 +5,8 @@ const Gallery = require("../models/gallery");
 const localGallery = require("../models/seeds/gallery");
 const member = require("../models/member");
 const members = require("../models/seeds/seed-members")
-const subscribers = require("../models/subscriber");
+const subscriber = require("../models/subscriber");
+const subscribers = require("../models/seeds/subscribers")
 
 /*********************/
 /* Route for gallery */
@@ -90,6 +91,20 @@ router.get("/members/:id", async (req, res) => {
 /*************************/
 /* Route for subscribers */
 /*************************/
+router.get("/subscribers", async (req, res) => {
+	try {
+		let data = await subscriber.find();
+
+		if (data.length === 0) {
+			data = subscribers;
+		} else {
+			res.send(data);
+		}
+	} catch (err) {
+		console.log(err);
+		res.send({ error: "Member Not Found" }); // send JSON 404 error
+	}
+});
 
 
 
