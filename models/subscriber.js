@@ -1,8 +1,8 @@
-const mongoose = require("mongoose");
 
+const mongoose = require('./db')
 const subscriberSchema = new mongoose.Schema({
 	name: String,
 	email: String,
 });
-
-module.exports = mongoose.model("subscriber", subscriberSchema);
+const Subscriber = mongoose.model("subscriber", subscriberSchema);
+module.exports = Subscriber;
