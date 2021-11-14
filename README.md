@@ -18,6 +18,7 @@ VScoders
     - Finding images and optimizing them
     - Image array
     - 404 HTML
+    - Members HTML
 - [Filora Turdi](https://github.com/aeoyu)
   - contribution
     - Set up initial folders and file structure, added data template to api.js
