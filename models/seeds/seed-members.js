@@ -11,7 +11,7 @@ const members = [
     {
         id: 2,
         name: 'Devon Lipsius',
-        profilePic: '',
+        profilePic: './assets/images/devonpic.jpg',
         title: 'Back-End Supporter',
         bio: '',
         github: 'https://github.com/Nephy1'

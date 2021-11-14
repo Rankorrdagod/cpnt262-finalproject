@@ -6,7 +6,7 @@ const mongoose = require("mongoose");
 async function main() {
 
 
-	await mongoose.connect(process.env.MONGO_URI)
+	await mongoose.connect(process.env.MONGO_URL)
 
 	const app = express();
     // URL ENCODED IF SUBMITTED INFO IS FROM A TRADITIONAL FORM
@@ -37,7 +37,11 @@ async function main() {
 	});
 
    // SUBSCRIBER POST
+<<<<<<< HEAD
  app.post('/api/subscribers', function(request, response){
+=======
+ /*app.post('/subscribers', function(request, response){
+>>>>>>> ff78713085ad64b385763e98ff7253cb3ed11da3
   const subscriber = new subscriber(req.body);
 
   subscriber.save(function(error, data){
@@ -46,7 +50,7 @@ async function main() {
     }
     res.send('Thank you for subscribing!!');
   })
-});
+});*/
 
 }
 main();

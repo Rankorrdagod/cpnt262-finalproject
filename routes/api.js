@@ -118,5 +118,19 @@ router.post("/subscribers", async (req, res) => {
 	}
 });
 
+router.post('/subscribers', async (req, res) => {  
+	try {
+	  const subscriber = new Subscriber(req.body)
+	
+	  await subscriber.save()
+	
+	  console.log(subscriber)
+	  res.redirect('/success.html')
+  
+	} catch(err) {
+	  console.log(err)
+	  res.redirect('/fail.html')    
+	}
+  })
 
 module.exports = router;
