@@ -81,7 +81,11 @@ const mongoose = require("mongoose");
 	});
 
    // SUBSCRIBER POST
+<<<<<<< HEAD
+ app.post('/api/subscribers', function(request, response){
+=======
  /*app.post('/subscribers', function(request, response){
+>>>>>>> ff78713085ad64b385763e98ff7253cb3ed11da3
   const subscriber = new subscriber(req.body);
 
   subscriber.save(function(error, data){
