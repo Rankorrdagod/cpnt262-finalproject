@@ -96,7 +96,7 @@ router.get("/subscribers", async (req, res) => {
 		let data = await subscriber.find();
 
 		if (data.length === 0) {
-			data = subscribers;
+			data = subscriber;
 		} else {
 			res.send(data);
 		}

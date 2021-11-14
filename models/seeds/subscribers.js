@@ -1,8 +1,22 @@
-const mongoose = require('mongoose');
-
-const subscriberSchema = new mongoose.Schema({
-  name: String,
-  email: String
-})
-
-module.exports = mongoose.model('subscriber', subscriberSchema)
+module.exports = [
+  {
+    "id":1,
+    "name":"Isha Simran",
+    "email":"",
+  },
+  {
+    "id":2,
+    "name":"Devon Lipsius",
+    "email":"",
+  },
+  {
+    "id":3,
+    "name":"Filora Turdi",
+    "email":"",
+  },
+  {
+    "id":4,
+    "name":"Evan Burton",
+    "email":"burtonevan1@gmai.com",
+  }
+]
