@@ -6,7 +6,7 @@ const mongoose = require("mongoose");
 async function main() {
 
 
-	await mongoose.connect(process.env.MONGO_URI)
+	await mongoose.connect(process.env.MONGO_URL)
 
 	const app = express();
     // URL ENCODED IF SUBMITTED INFO IS FROM A TRADITIONAL FORM
