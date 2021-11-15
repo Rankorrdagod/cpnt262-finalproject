@@ -4,7 +4,7 @@
 
 **Github Pages Link :** [GitHub Page](https://aeoyu.github.io/cpnt262-finalproject/)
 
-**Heroku Page Link :** [Heroku Page](https://cpnt262-finalproject.herokuapp.com/)
+**Heroku Page Link :** [Heroku Page](https://cpnt262-finalapp.herokuapp.com/)
 
 ## Group Name:
 
