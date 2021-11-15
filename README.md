@@ -30,12 +30,15 @@ VScoders
     - added post request for subscribers
 - [Evan Burton](https://github.com/Rankorrdagod)
   - contribution
-    - Set up server and routes
+    - Set up server and api routes.
     - Added json to mongodb to populate database.
-    - Added Schemas
-    - Updated some html and added Fetch() to help on frontend
+    - Added Schemas.
+    - Updated some html and added Fetch() to help on frontend.
+    - Heroku app host.
     - Broke the server horribly and then fixed it, special thanks to Filora for tryin to help when it broke.
+    - Added code to try and help with form POST.
     - Tried to help set up meeting times and communicate with the group.
+    
     
 ## Restaurant:
 
