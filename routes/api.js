@@ -1,12 +1,13 @@
 const express = require("express");
 const router = express.Router();
-
+const app = express()
 const Gallery = require("../models/gallery");
 const localGallery = require("../models/seeds/gallery");
 const member = require("../models/member");
 const members = require("../models/seeds/seed-members")
 const subscriber = require("../models/subscriber");
 const subscribers = require("../models/seeds/subscribers")
+const mongoose = require('mongoose');
 
 // URL ENCODED IF SUBMITTED INFO IS FROM A TRADITIONAL FORM
 app.use(express.urlencoded({ extended: true }));
