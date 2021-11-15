@@ -1,125 +1,10 @@
-/******************************************************************/
-/* 				 							 		INDEX HTML														*/
-/******************************************************************/
+/******************************************************/
+/* 				 							 		INDEX HTML								*/
+/******************************************************/
 
 body {
 	margin: 0;
 	background-color: #ffffff;
-}
-
-/* NAVBAR */
-
-/* Navigation style */
-.title {
-	display: flex;
-	/* padding: 1.6rem;
-	padding-left: 4rem; */
-	transition: all 0.3s ease-in-out 0s;
-}
-nav {
-	padding-left: 2rem;
-	padding-top: 1rem;
-	display: flex;
-	justify-content: space-between;
-	min-height: 8vh;
-	align-items: center;
-	text-transform: uppercase;
-	font-family: sans-serif;
-	font-weight: bold;
-	font-size: 1.1rem;
-}
-
-.navlinks {
-	display: flex;
-	justify-content: space-around;
-	gap: 2rem;
-	padding: 2rem;
-	margin: 0;
-	/* width: 30%; */
-	white-space: nowrap;
-}
-.navlinks li {
-	list-style: none;
-	display: inline-block;
-}
-.navlinks a {
-	color: rgb(104, 102, 102);
-	text-decoration: none;
-	letter-spacing: 2px;
-}
-
-nav li a:hover {
-	color: #363636;
-}
-
-/* Hamburger Lines */
-.hamburger {
-	display: none;
-	cursor: pointer;
-}
-
-.hamburger div {
-	width: 30px;
-	height: 4px;
-	background-color: rgb(49, 49, 49);
-
-	margin: 5px;
-}
-
-@media screen and (max-width: 1024px) {
-	/* .navlinks {
-	} */
-	@media screen and (max-width: 768px) {
-		body {
-			overflow-x: hidden;
-		}
-		nav {
-			display: flex;
-			padding: 1rem;
-		}
-		.navlinks {
-			font-size: 4rem;
-			display: flex;
-			flex-direction: column;
-			position: absolute;
-			right: 0px;
-			height: 80vh;
-			top: 10vh;
-			align-items: center;
-			background-color: rgb(0, 0, 0);
-			width: 100%;
-			transform: translateX(100%);
-			transition: tranform 0.5s ease-in;
-		}
-		.navlinks li {
-			opacity: 0;
-		}
-		.hamburger {
-			display: block;
-		}
-		.nav-active {
-			transform: translateX(0%);
-		}
-	}
-	@keyframes navlinksFade {
-		from {
-			opacity: 0;
-			transform: translateX(50px);
-		}
-		to {
-			opacity: 1;
-			transform: translateX(0[x]);
-		}
-	}
-	.toggle .line1 {
-		transform: rotate(-45deg translate (-5px, 6px));
-	}
-	.toggle .line2 {
-		opacity: 0;
-	}
-	.toggle .line3 {
-		transform: rotate(45deg translate (-5px, -6px));
-	}
 }
 
 /* About/Work/Contact us tag */
@@ -340,9 +225,9 @@ footer {
 	padding: 8px;
 }
 
-/****************************************************************/
-/*													FONT STYLE													*/
-/****************************************************************/
+/************************************************/
+/*								  FONT STYLE					        */
+/************************************************/
 
 body {
 	font-family: "Roboto", sans-serif;

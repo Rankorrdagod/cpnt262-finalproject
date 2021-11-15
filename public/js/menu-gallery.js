@@ -13,4 +13,3 @@ fetch("/api/galleries")
 			container.appendChild(newElement);
 		}
 	});
-console.log("hello");
