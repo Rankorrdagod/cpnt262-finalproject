@@ -1,6 +1,6 @@
 'use strict';
 
-const members = require("../../models/seeds/seed-members");
+
 
 let output = '';
 const team = document.querySelector('.team')
