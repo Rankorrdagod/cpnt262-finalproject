@@ -1,16 +1,11 @@
 const express = require("express");
 const router = express.Router();
-const app = express()
+
 const Gallery = require("../models/gallery");
 const localGallery = require("../models/seeds/gallery");
 const member = require("../models/member");
 const members = require("../models/seeds/seed-members")
-const subscriber = require("../models/subscriber");
-const subscribers = require("../models/seeds/subscribers")
-const mongoose = require('mongoose');
-
-// URL ENCODED IF SUBMITTED INFO IS FROM A TRADITIONAL FORM
-app.use(express.urlencoded({ extended: true }));
+const subscribers = require("../models/subscriber");
 
 /*********************/
 /* Route for gallery */
@@ -95,43 +90,7 @@ router.get("/members/:id", async (req, res) => {
 /*************************/
 /* Route for subscribers */
 /*************************/
-router.get("/subscribers", async (req, res) => {
-	try {
-		let data = await subscriber.find();
 
-		if (data.length === 0) {
-			data = subscribers;
-		} else {
-			res.send(data);
-		}
-	} catch (err) {
-		console.log(err);
-		res.send({ error: "Member Not Found" }); // send JSON 404 error
-	}
-});
-router.post("/subscribers", async (req, res) => {
-	try {
-		const newSub = new subscriber(req.body);
-    await newSub.save()
-	} catch (err) {
-		console.log(err);
-		res.send({ error: "Member Not Found" }); // send JSON 404 error
-	}
-});
 
-router.post('/subscribers', async (req, res) => {  
-	try {
-	  const subscriber = new Subscriber(req.body)
-	
-	  await subscriber.save()
-	
-	  console.log(subscriber)
-	  res.redirect('/success.html')
-  
-	} catch(err) {
-	  console.log(err)
-	  res.redirect('/fail.html')    
-	}
-  })
 
 module.exports = router;
