@@ -9,7 +9,7 @@ const subscriber = require("../models/subscriber");
 const subscribers = require("../models/seeds/subscribers")
 
 // URL ENCODED IF SUBMITTED INFO IS FROM A TRADITIONAL FORM
-app.use(express.urlencoded({ extended: true }));
+router.use(express.urlencoded({ extended: true }));
 
 /*********************/
 /* Route for gallery */
@@ -112,25 +112,12 @@ router.post("/subscribers", async (req, res) => {
 	try {
 		const newSub = new subscriber(req.body);
     await newSub.save()
+    res.redirect('/success.html')
 	} catch (err) {
 		console.log(err);
-		res.send({ error: "Member Not Found" }); // send JSON 404 error
+		res.redirect('/fail.html') ; // send JSON 404 error
 	}
 });
 
-router.post('/subscribers', async (req, res) => {  
-	try {
-	  const subscriber = new Subscriber(req.body)
-	
-	  await subscriber.save()
-	
-	  console.log(subscriber)
-	  res.redirect('/success.html')
-  
-	} catch(err) {
-	  console.log(err)
-	  res.redirect('/fail.html')    
-	}
-  })
 
 module.exports = router;
