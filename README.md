@@ -32,6 +32,7 @@ VScoders
     - added member/subscriber routes
     - added post request for subscribers
     - Misc fixes
+    - Mad debugging 
 - [Evan Burton](https://github.com/Rankorrdagod)
   - contribution
     - Set up server and api routes.
@@ -42,6 +43,7 @@ VScoders
     - Broke the server horribly and then fixed it, special thanks to Filora for tryin to help when it broke.
     - Added code to try and help with form POST.
     - Tried to help set up meeting times and communicate with the group.
+    - mad debugging
 
 ## Restaurant:
 
