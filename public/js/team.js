@@ -4,7 +4,7 @@
 
 let output = '';
 const team = document.querySelector('.team')
-fetch('https://cpnt262-finalapp.herokuapp.com/api/members')
+fetch('https://wbdevpracproject2021.herokuapp.com/api/members')
   .then(function (response) {
     if (!response.ok) {
       throw new Error('Not 200 OK');
