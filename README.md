@@ -20,6 +20,7 @@ VScoders
     - 404 HTML
     - Attempted to set up group meetings.
     - worked on Members HTML
+    - worked on Members array
 - [Filora Turdi](https://github.com/aeoyu)
   - contribution
     - Set up initial folders and file structure, added data template to api.js
