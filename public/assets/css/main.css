@@ -1,6 +1,6 @@
-/******************************************************/
-/* 				 							 		INDEX HTML								*/
-/******************************************************/
+/******************************************/
+/* 				 			  INDEX HTML							*/
+/******************************************/
 
 body {
 	margin: 0;
@@ -280,9 +280,6 @@ a {
 
 /* footer info */
 
-.footer-icon {
-}
-
 footer {
 	font-family: "Roboto", sans-serif;
 	font-weight: 300;
@@ -392,8 +389,4 @@ button:hover {
 	.h1img {
 		flex-direction: column;
 	}
-}
-
-.gallery-image {
-	max-width: 200px;
 }

@@ -1,0 +1,26 @@
+figure {
+	max-width: 100%;
+	flex-wrap: wrap;
+	text-align: center;
+	color: rgb(10, 10, 10);
+	font-weight: bolder;
+	text-transform: uppercase;
+	margin-bottom: 4em;
+	font-size: 15px;
+	padding: 10px;
+}
+
+figure {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.gallery-container {
+	padding: 5rem;
+	align-items: center;
+}
+
+.gallery-image {
+	max-width: 30rem;
+}
