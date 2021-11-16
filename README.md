@@ -29,8 +29,9 @@ VScoders
   - contribution
     - Added Schemas
     - Attempt debugging with Evan
-    - added member routes
+    - added member/subscriber routes
     - added post request for subscribers
+    - Misc fixes
 - [Evan Burton](https://github.com/Rankorrdagod)
   - contribution
     - Set up server and api routes.
