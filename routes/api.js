@@ -9,7 +9,7 @@ const subscriber = require("../models/subscriber");
 const subscribers = require("../models/seeds/subscribers")
 
 // URL ENCODED IF SUBMITTED INFO IS FROM A TRADITIONAL FORM
-app.use(express.urlencoded({ extended: true }));
+router.use(express.urlencoded({ extended: true }));
 
 /*********************/
 /* Route for gallery */
