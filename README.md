@@ -4,7 +4,7 @@
 
 **Github Pages Link :** [GitHub Page](https://aeoyu.github.io/cpnt262-finalproject/)
 
-**Heroku Page Link :** [Heroku Page](https://cpnt262-finalproject.herokuapp.com/)
+**Heroku Page Link :** [Heroku Page](https://cpnt262-finalapp.herokuapp.com/)
 
 ## Group Name:
 
@@ -18,7 +18,6 @@ VScoders
     - Finding images and optimizing them
     - Image array
     - 404 HTML
-    - Members HTML
 - [Filora Turdi](https://github.com/aeoyu)
   - contribution
     - Set up initial folders and file structure, added data template to api.js
@@ -31,11 +30,16 @@ VScoders
     - added post request for subscribers
 - [Evan Burton](https://github.com/Rankorrdagod)
   - contribution
-    - Added server side requirements and test script to add to server to make sure it works.
-    - Converted image.js to json and added image.json to routesto upload to database.
-    - added gallery routes
-    - added database connection in mongo, pushed to heroku semi successfully https://cpnt262-finalapp.herokuapp.com/
-    - fixing 
+    - Set up server and api routes.
+    - Added json to mongodb to populate database.
+    - Added Schemas.
+    - Updated some html and added Fetch() to help on frontend.
+    - Heroku app host.
+    - Broke the server horribly and then fixed it, special thanks to Filora for tryin to help when it broke.
+    - Added code to try and help with form POST.
+    - Tried to help set up meeting times and communicate with the group.
+    
+    
 ## Restaurant:
 
 - Kitchen Restaurant
