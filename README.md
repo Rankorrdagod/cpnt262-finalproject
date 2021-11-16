@@ -42,8 +42,7 @@ VScoders
     - Broke the server horribly and then fixed it, special thanks to Filora for tryin to help when it broke.
     - Added code to try and help with form POST.
     - Tried to help set up meeting times and communicate with the group.
-    
-    
+
 ## Restaurant:
 
 - Kitchen Restaurant
@@ -63,6 +62,10 @@ VScoders
 Finally, Push Changes “git push”
 
 ## Attributions
+
+### Links
+
+- [Using fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
 
 ### Images
 
