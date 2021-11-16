@@ -119,5 +119,4 @@ router.post("/subscribers", async (req, res) => {
 	}
 });
 
-
 module.exports = router;

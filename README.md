@@ -4,7 +4,7 @@
 
 **Github Pages Link :** [GitHub Page](https://aeoyu.github.io/cpnt262-finalproject/)
 
-**Heroku Page Link :** [Heroku Page](https://cpnt262-finalapp.herokuapp.com/)
+**Heroku Page Link :** [Heroku Page](https://wbdevpracproject2021.herokuapp.com/)
 
 ## Group Name:
 
@@ -25,12 +25,17 @@ VScoders
   - contribution
     - Set up initial folders and file structure, added data template to api.js
     - write/update/debug index.html code with hamburger menu javascript code
+    - tried to help with server.js to show up in the first round of edits heroku, eventually code broke later.
+    - set up fetch gallery.js, created html elements in js
+    - set up and edited css assets
 - [Devon Lipsius](https://github.com/Nephy1)
   - contribution
     - Added Schemas
     - Attempt debugging with Evan
-    - added member routes
+    - added member/subscriber routes
     - added post request for subscribers
+    - Misc fixes
+    - Mad debugging
 - [Evan Burton](https://github.com/Rankorrdagod)
   - contribution
     - Set up server and api routes.
@@ -41,6 +46,7 @@ VScoders
     - Broke the server horribly and then fixed it, special thanks to Filora for tryin to help when it broke.
     - Added code to try and help with form POST.
     - Tried to help set up meeting times and communicate with the group.
+    - mad debugging
 
 ## Restaurant:
 

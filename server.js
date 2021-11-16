@@ -28,4 +28,3 @@ const mongoose = require("mongoose");
 	app.listen(PORT, function () {
 		console.log(`Listening on port ${PORT}`);
 	});
-
