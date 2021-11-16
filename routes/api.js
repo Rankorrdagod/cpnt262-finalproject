@@ -9,7 +9,7 @@ const subscriber = require("../models/subscriber");
 const subscribers = require("../models/seeds/subscribers")
 
 // URL ENCODED IF SUBMITTED INFO IS FROM A TRADITIONAL FORM
-router.use(express.urlencoded({ extended: true }));
+app.use(express.urlencoded({ extended: true }));
 
 /*********************/
 /* Route for gallery */
@@ -118,6 +118,5 @@ router.post("/subscribers", async (req, res) => {
 		res.redirect('/fail.html') ; // send JSON 404 error
 	}
 });
-
 
 module.exports = router;
